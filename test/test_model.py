@@ -1,7 +1,12 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+
 import pandas as pd
 import numpy as np
 from stable_baselines3 import PPO
-from enviroment import TradingEnv
+from environment import TradingEnv
 from stable_baselines3.common.vec_env import DummyVecEnv
 
 def load_test_data(filepath):
@@ -38,7 +43,6 @@ def evaluate_model(model_path, test_data, initial_balance=10000):
     }
 
 def main():
-    # 
     model_path = "/home/zven/Gl3/project/T-XAU/models/ppo_gold_trader.zip"
     test_data_path = "/home/zven/Gl3/project/T-XAU/data/test_gold_prices.csv"
     
