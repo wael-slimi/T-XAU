@@ -125,5 +125,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Developed by **Wael Slimi**.  
 Contact: [slimiwael@proton.me](mailto:slimiwael@proton.me)  
-LinkedIn: [linkedin.com/in/wael-slimi](https://linkedin.com/in/wael-slimi)
+LinkedIn: [linkedin.com/in/wael-slimi](https://www.linkedin.com/in/wael-slimi-1944161a4/)
 
